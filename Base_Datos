@@ -1,0 +1,10 @@
+create database Academica;
+
+use Academica
+
+create table ProgramaAcademico
+(
+  Cod_ProgAca varchar (5) not null primary key,
+  Descr_ProgAca varchar (40) not null,
+  Cred_ProgAca int not null
+);
